@@ -14,7 +14,7 @@ Quick Start
 
 
 2. make an instance of the class ::
-    zakat = Zakat("seller name", "123456789", "2021-06-25 07:58:56.550604", "115", "15")
+    zakat = Zakatqr("seller name", "123456789", "2021-06-25 07:58:56.550604", "115", "15")
 
 3. to make data as base64 ::
         base64 = zakat.tlv_as_base64()
