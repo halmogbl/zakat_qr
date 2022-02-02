@@ -37,7 +37,7 @@ class Zakatqr():
 	def qr_image_encoded_uri(self):
 		img = self.qr_code()
 		buffered = BytesIO()
-		img.save(buffered, format="JPEG")
+		img.save(buffered, format="PNG")
 		img_str = base64.b64encode(buffered.getvalue()).decode('utf-8')
 		mime = "image/png"
 		uri = "data:%s;base64,%s" % (mime, img_str)
