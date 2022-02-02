@@ -85,4 +85,4 @@ image = invoice.qr_code()
 image.save("qr_code_img.png")
 ```
 
-![qrcode](https://user-images.githubusercontent.com/47291955/152148241-daaabd0f-3c16-4a58-8678-106e835eb488.png)
+<img src="https://user-images.githubusercontent.com/47291955/152148241-daaabd0f-3c16-4a58-8678-106e835eb488.png" alt="qr_code_img.png">
